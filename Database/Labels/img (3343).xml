@@ -1,0 +1,38 @@
+<annotation>
+	<folder>WithFlange</folder>
+	<filename>img (3343).jpg</filename>
+	<path>C:\Users\natha\Desktop\PROJETO FINAL\ProjetoFinalNN\Database\WithFlange\img (3343).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>368</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flange joint</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>229</xmin>
+			<ymin>110</ymin>
+			<xmax>259</xmax>
+			<ymax>154</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flange joint</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>180</xmin>
+			<ymin>18</ymin>
+			<xmax>248</xmax>
+			<ymax>46</ymax>
+		</bndbox>
+	</object>
+</annotation>
