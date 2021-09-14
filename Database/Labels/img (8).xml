@@ -1,26 +1,38 @@
 <annotation>
-	<folder>NotUnderwater</folder>
+	<folder>WithFlange</folder>
 	<filename>img (8).jpg</filename>
-	<path>C:\Users\natha\Desktop\PROJETO FINAL\ProjetoFinalNN\Database\WithFlange\NotUnderwater\img (8).jpg</path>
+	<path>C:\Users\natha\Desktop\PROJETO FINAL\ProjetoFinalNN\Database\WithFlange\img (8).jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>600</width>
-		<height>280</height>
+		<width>784</width>
+		<height>716</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>flange joint</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>150</xmin>
 			<ymin>245</ymin>
-			<xmax>192</xmax>
-			<ymax>280</ymax>
+			<xmax>193</xmax>
+			<ymax>296</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flange joint</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>210</xmin>
+			<ymin>515</ymin>
+			<xmax>275</xmax>
+			<ymax>560</ymax>
 		</bndbox>
 	</object>
 </annotation>
