@@ -6,7 +6,8 @@ Youtube videos playlist url: https://www.youtube.com/playlist?list=PLvofOEUnfw04
 Notebooks no Google Colab:
   - YOLOv4:
     https://colab.research.google.com/drive/1pbTgUA7atxhPZpb3T8W_7Qp2ncpIAKqb?usp=sharing
-  -Faster R-CNN:
+  
+  - Faster R-CNN:
     https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing
     
 Similiar works:
