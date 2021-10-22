@@ -1,0 +1,9 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/darknet/data/test/img (1856).jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.600645, "center_y":0.702425, "width":0.260229, "height":0.572065}, "confidence":0.997329}
+ ] 
+}
+]

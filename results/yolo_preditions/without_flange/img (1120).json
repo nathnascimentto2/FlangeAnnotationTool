@@ -1,0 +1,11 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/WithoutFlange/img (1120).jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.554974, "center_y":0.598129, "width":0.118319, "height":0.084772}, "confidence":0.790676}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.919350, "center_y":0.940147, "width":0.115504, "height":0.107252}, "confidence":0.359221}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.431802, "center_y":0.898179, "width":0.074100, "height":0.091040}, "confidence":0.324796}
+ ] 
+}
+]

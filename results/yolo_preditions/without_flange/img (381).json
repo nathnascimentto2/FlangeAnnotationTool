@@ -1,0 +1,9 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/WithoutFlange/img (381).jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.440398, "center_y":0.890560, "width":0.204223, "height":0.224771}, "confidence":0.870162}
+ ] 
+}
+]

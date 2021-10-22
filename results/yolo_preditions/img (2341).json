@@ -1,0 +1,12 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/darknet/data/test/img (2341).jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.431110, "center_y":0.836134, "width":0.115283, "height":0.264667}, "confidence":0.991281}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.200573, "center_y":0.883308, "width":0.161214, "height":0.239421}, "confidence":0.990965}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.278773, "center_y":0.857528, "width":0.079246, "height":0.285069}, "confidence":0.573258}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.042940, "center_y":0.909026, "width":0.100917, "height":0.164974}, "confidence":0.297343}
+ ] 
+}
+]

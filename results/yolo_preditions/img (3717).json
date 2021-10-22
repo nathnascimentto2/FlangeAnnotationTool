@@ -1,0 +1,19 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/content/darknet/data/test/img (3717).jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.665892, "center_y":0.897116, "width":0.144785, "height":0.205504}, "confidence":0.999874}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.439752, "center_y":0.681071, "width":0.068289, "height":0.056810}, "confidence":0.998849}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.523937, "center_y":0.894197, "width":0.097121, "height":0.133630}, "confidence":0.987521}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.121832, "center_y":0.893541, "width":0.173628, "height":0.174716}, "confidence":0.977713}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.420738, "center_y":0.824378, "width":0.130146, "height":0.127423}, "confidence":0.975420}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.580751, "center_y":0.663720, "width":0.072988, "height":0.064389}, "confidence":0.968228}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.284375, "center_y":0.855583, "width":0.075870, "height":0.119039}, "confidence":0.931112}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.710118, "center_y":0.699383, "width":0.093638, "height":0.071705}, "confidence":0.695534}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.362519, "center_y":0.665192, "width":0.035035, "height":0.069985}, "confidence":0.642411}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.325692, "center_y":0.669758, "width":0.042151, "height":0.065629}, "confidence":0.362513}, 
+  {"class_id":0, "name":"flange joint", "relative_coordinates":{"center_x":0.702705, "center_y":0.651544, "width":0.077809, "height":0.052874}, "confidence":0.328952}
+ ] 
+}
+]
