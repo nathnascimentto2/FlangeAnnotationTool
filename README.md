@@ -46,7 +46,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -97,10 +96,23 @@ This section lists the major frameworks/libraries used on this project.
 <!-- GETTING STARTED -->
 ## Getting Started
 
+It is recommended to use Google Colab to test the scripts. It provides the necessary hardware to train and validade the networks. 
+Besides it allows to save results on Google Drive.
+
+One can re-run the entire code and train its own networks on the flange dataset. Otherwise, the models trained on my tests are available on 
+my cloud folder [backup](https://drive.google.com/drive/folders/1dTAhuHgrRmxiJumfFThHo4h2s6LVdghS?usp=sharing). 
+The file `yolov4-custom-flangedataset_best.weights` has the trained weights for YOLOv4. In `outpus\model_final.pth` one will find the trained model for Faster R-CNN.
+
 ### Prerequisites
 
+It is necessary to use GPUs to train and validade Faster R-CNN in all circunstances. 
 
-### Installation
+YOLOv4 requires GPUs only on train stage. On validation, they are only required on video predictions, otherwise one can run the Flange Annotation Tool (with YOLOv4) 
+on regular CPUs.
+
+As mentioned, it is highly recommended to run the source scripts on Google Colab, as it may provide the necessary hardware. If using the free version, pay attention in the time limits on sessions with GPU. Always remember to switch the environment to a regular one (without harware accelerator) once GPUs are no longer needed. 
+Besides, avoid saving results locally as they will be deleted after the session is over. Save results on cloud usually the best, as it may also save memory resources 
+and avoid session disconnection.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -152,6 +164,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
+Not available.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -170,16 +184,16 @@ Project Link: [https://github.com/nathnascimentto2/FlangeAnnotationTool](https:/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Use this space to list resources you find helpful and would like to give credit to.
 
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [YOLOv4 Paper](https://arxiv.org/abs/2004.10934)
+* [Faster R-CNN Paper](https://arxiv.org/abs/1506.01497)
+* [Detectron2 Documentation](https://detectron2.readthedocs.io/en/latest/)
+* [LabelImg Tool](https://github.com/tzutalin/labelImg)
+* [YouYube Playlist](https://youtube.com/playlist?list=PLvofOEUnfw04W3652VkIUcnI6nQmN-eHq)
+* [YOLOv4 Notebook](https://colab.research.google.com/drive/1pbTgUA7atxhPZpb3T8W_7Qp2ncpIAKqb?usp=sharing)
+* [Faster R-CNN Notebook](https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
