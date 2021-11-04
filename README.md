@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/nathnascimentto2/FlangeAnnotationTool">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Flange Annotation Tool</h3>
@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Flange Database][flange-database]](images\database.png)
+[![Flange Database][flange-database]](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png)
 
 This project was developed as an undergraduate thesis for my Control and Automation Engineering Degree. 
 It provides an useful computer vision tool to detect flanges in pipeline systems working offshore or onshore.  
