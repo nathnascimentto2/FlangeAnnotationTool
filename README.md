@@ -74,7 +74,7 @@ YOLOv4 performed better than Faster R-CNN.
 As part of the process, a database of flanges was established. It is available on this repository and it was created with public data available on
 Google Images and YouTube. 
 
-A YouTube playlist named [Subsea and Surface Pipeline Sistems](https://youtube.com/playlist?list=PLvofOEUnfw04W3652VkIUcnI6nQmN-eHq) was created by 
+A YouTube playlist named [Subsea and Surface Pipeline Systems](https://youtube.com/playlist?list=PLvofOEUnfw04W3652VkIUcnI6nQmN-eHq) was created by 
 gathering several posts of offshore and onshore systems. Its videos were used to integrate the flange database.  
 
 The source code was written and tested using the Google Colab platform. Check the [Faster R-CNN Notebook](https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing)
