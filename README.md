@@ -65,24 +65,23 @@
 ![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/04491023bcb824a3a820b4071281bc18edcde97f/images/yolo_results2.png)
 
 This project worked as an undergraduate thesis for my degree in Control and Automation Engineering. 
-It provides an useful computer vision tool to detect flanges in pipeline systems working offshore or onshore.  
+It provides an useful computer vision tool to detect flanges in pipeline systems working offshore and onshore.  
 
 Two approaches were considered on this development. Each uses a state-of-art model based on convolutional neural networks to integrate the detector module.
-The networks selected were YOLOv4 and Faster R-CNN. Its results were checked in order to examine the most accurate resource. Later studies showed that
+The algorithms selected were YOLOv4 and Faster R-CNN. Its results were checked in order to examine the most accurate one. Later studies showed that
 YOLOv4 performed better than Faster R-CNN.
 
-As part of the process, a database of flanges was established. It is available on this repository and it was created with public data available on
-Google Images and YouTube. 
+As part of the process, a database of flanges was established. It is available on this repository and was created with public data from Google Images and frames
+from YouTube videos. 
 
 A YouTube playlist named [Subsea and Surface Pipeline Systems](https://youtube.com/playlist?list=PLvofOEUnfw04W3652VkIUcnI6nQmN-eHq) was created by 
 gathering several posts of offshore and onshore systems. Its videos were used to integrate the flange database.  
 
-The source code was written and tested using the Google Colab platform. Check the [Faster R-CNN Notebook](https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing)
-and [YOLOv4 Notebook](https://colab.research.google.com/drive/1pbTgUA7atxhPZpb3T8W_7Qp2ncpIAKqb?usp=sharing) for insights on the code.
+The source code was written and tested using the Google Colab platform. Check [Faster R-CNN Notebook](https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing) and [YOLOv4 Notebook](https://colab.research.google.com/drive/1pbTgUA7atxhPZpb3T8W_7Qp2ncpIAKqb?usp=sharing) for insights of the code.
 
 ### Built With
 
-This section lists the major frameworks/libraries used on this project. 
+This section lists the major frameworks/libraries used on this project.  
 
 * [Detectron2](https://github.com/facebookresearch/detectron2)
 * [YOLOv4](https://github.com/AlexeyAB/darknet)
@@ -96,22 +95,22 @@ This section lists the major frameworks/libraries used on this project.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-It is recommended to use Google Colab to test the scripts. It provides the necessary hardware to train and validade the networks. 
-Besides it allows to save results on Google Drive.
+It is recommended to use Google Colab to test the scripts. It provides the necessary hardware to train and validade the models. 
+Besides it allows the results to be saved directly on Google Drive.
 
-One can re-run the entire code and train its own networks on the flange dataset. Otherwise, the models trained on my tests are available on 
+Users can re-train and validate the models on the flange dataset. Otherwise, on can use my trained models available on 
 my cloud folder [backup](https://drive.google.com/drive/folders/1dTAhuHgrRmxiJumfFThHo4h2s6LVdghS?usp=sharing). 
-The file `yolov4-custom-flangedataset_best.weights` has the trained weights for YOLOv4. In `outpus\model_final.pth` one will find the trained model for Faster R-CNN.
+The file `yolov4-custom-flangedataset_best.weights` has the trained weights for YOLOv4. The Faster R-CNN model is in `outpus\model_final.pth`.
 
 ### Prerequisites
 
 It is necessary to use GPUs to train and validade Faster R-CNN in all circunstances. 
 
-YOLOv4 requires GPUs only on train stage. On validation, they are only required on video predictions, otherwise one can run the Flange Annotation Tool (with YOLOv4) 
+YOLOv4 requires GPUs only on train stage. On validation, they are required on video predictions, otherwise users can run the Flange Annotation Tool 
 on regular CPUs.
 
-As mentioned, it is highly recommended to run the source scripts on Google Colab, as it may provide the necessary hardware. If using the free version, pay attention in the time limits on sessions with GPU. Always remember to switch the environment to a regular one (without harware accelerator) once GPUs are no longer needed. 
-Besides, avoid saving results locally as they will be deleted after the session is over. Save results on cloud usually the best, as it may also save memory resources 
+As mentioned, it is highly recommended to run the source scripts on Google Colab, as it may provide the necessary hardware. If using the free version, pay attention in the time limits of sessions with GPU. Always remember to switch the environment to a regular one (without hardware accelerator) once GPUs are no longer needed. 
+Besides, avoid saving results locally as they will be deleted after once the session is over. Save results on cloud is usually the best, as it may also save memory resources 
 and avoid session disconnection.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -192,8 +191,8 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Detectron2 Documentation](https://detectron2.readthedocs.io/en/latest/)
 * [LabelImg Tool](https://github.com/tzutalin/labelImg)
 * [YouYube Playlist](https://youtube.com/playlist?list=PLvofOEUnfw04W3652VkIUcnI6nQmN-eHq)
-* [YOLOv4 Notebook](https://colab.research.google.com/drive/1pbTgUA7atxhPZpb3T8W_7Qp2ncpIAKqb?usp=sharing)
-* [Faster R-CNN Notebook](https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing)
+* [YOLOv4 Colab Notebook](https://colab.research.google.com/drive/1pbTgUA7atxhPZpb3T8W_7Qp2ncpIAKqb?usp=sharing)
+* [Faster R-CNN Colab Notebook](https://colab.research.google.com/drive/1c7it7KI6pfGZVyU_YjMEuu0yIg_L7TH7?usp=sharing)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
