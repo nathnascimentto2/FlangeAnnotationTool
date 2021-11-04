@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png =400x600)
+<img src="(https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png" data-canonical-src="(https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png" width="600" height="400" />
 
 This project was developed as an undergraduate thesis for my Control and Automation Engineering Degree. 
 It provides an useful computer vision tool to detect flanges in pipeline systems working offshore or onshore.  
