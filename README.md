@@ -63,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png)
+![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/04491023bcb824a3a820b4071281bc18edcde97f/images/yolo_results2.png)
 
 This project was developed as an undergraduate thesis for my Control and Automation Engineering Degree. 
 It provides an useful computer vision tool to detect flanges in pipeline systems working offshore or onshore.  
