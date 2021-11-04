@@ -65,7 +65,7 @@
 
 ![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/04491023bcb824a3a820b4071281bc18edcde97f/images/yolo_results2.png)
 
-This project was developed as an undergraduate thesis for my Control and Automation Engineering Degree. 
+This project worked as an undergraduate thesis for my degree in Control and Automation Engineering. 
 It provides an useful computer vision tool to detect flanges in pipeline systems working offshore or onshore.  
 
 Two approaches were considered on this development. Each uses a state-of-art model based on convolutional neural networks to integrate the detector module.
