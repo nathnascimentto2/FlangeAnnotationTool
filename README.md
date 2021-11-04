@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/nathnascimentto2/FlangeAnnotationTool">
-    <img src="images/logo.png" alt="Logo" width="150" height="150">
+    <img src="images/logo.png" alt="Logo" width="300" height="400">
   </a>
 
   <h3 align="center">Flange Annotation Tool</h3>
@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png)
+![Flange Database](https://github.com/nathnascimentto2/FlangeAnnotationTool/blob/7346cc1e89f3e8421ee83ef850622034b0285d3b/images/database.png)
 
 This project was developed as an undergraduate thesis for my Control and Automation Engineering Degree. 
 It provides an useful computer vision tool to detect flanges in pipeline systems working offshore or onshore.  
@@ -95,20 +95,11 @@ This section lists the major frameworks/libraries used on this project.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -119,9 +110,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -138,7 +126,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [] Chinese
     - [] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/nathnascimentto2/FlangeAnnotationTool/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
