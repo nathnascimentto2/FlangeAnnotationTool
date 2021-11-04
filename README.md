@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/nathnascimentto2/FlangeAnnotationTool">
-    <img src="images/logo.png" alt="Logo" width="150" height="120">
+    <img src="images/logo.png" alt="Logo" width="250" height="220">
   </a>
 
   <h3 align="center">Flange Annotation Tool</h3>
